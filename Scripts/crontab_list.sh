@@ -26,8 +26,6 @@
 10 8,12 * * * node /scripts/jd_crazy_joy.js >> /scripts/logs/jd_crazy_joy.log 2>&1
 # 东东小窝
 15 5 * * * node /scripts/jd_small_home.js >> /scripts/logs/jd_small_home.log 2>&1
-# 宠汪汪
-3 9 * * * node /scripts/jd_joy.js >> /scripts/logs/jd_joy.log 2>&1
 # 东东超市
 22 */6 * * * node /scripts/jd_superMarket.js >> /scripts/logs/jd_superMarket.log 2>&1
 # 京喜农场
@@ -40,8 +38,6 @@
 1 0,12 * * * node /scripts/jd_jdzz.js >> /scripts/logs/jd_jdzz.log 2>&1
 # 十元街
 4 */4 * * * node /scripts/jd_syj.js >> /scripts/logs/jd_syj.log 2>&1
-# 宠汪汪邀请助力
-6 9 * * * node /scripts/jd_joy_run.js >> /scripts/logs/jd_joy_run.log 2>&1
 # 领京豆额外奖励(每日可获得3京豆)
 13 */4 * * * node /scripts/jd_bean_home.js >> /scripts/logs/jd_bean_home.log 2>&1
 # 健康社区
