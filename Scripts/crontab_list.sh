@@ -52,6 +52,10 @@
 1 8 * * * node /scripts/jd_wxFans.js >> /scripts/logs/jd_wxFans.log 2>&1
 #愤怒的锦鲤
 0 0 * * * node /scripts/jd_angryKoi.js >> /scripts/logs/jd_angryKoi.log 2>&1
+#京东宠汪汪
+15 0-23/5 * * * node /scripts/jd_joy.js >> /scripts/logs/jd_joy.log 2>&1
+#宠汪汪偷好友积分与狗粮
+10 0-21/5 * * * node /scripts/jd_joy_steal.js >> /scripts/logs/jd_joy_steal.log 2>&1
 #预存validate
 58 7,15,23 * * * node /scripts/jd_validate_Worker.js >> /scripts/logs/jd_validate_Worker.log 2>&1
 #宠汪汪兑换京豆
