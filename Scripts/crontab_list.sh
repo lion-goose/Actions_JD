@@ -44,6 +44,8 @@
 25 */6 * * * node /scripts/jd_health.js >> /scripts/logs/jd_health.log 2>&1
 # 签到领现金
 32 9,13,17,23 * * * node /scripts/jd_cash.js >> /scripts/logs/jd_cash.log 2>&1
+# 签到领现金助力
+0,5 0 * * * node /scripts/jd_cash_help.js >> /scripts/logs/jd_cash_help.log 2>&1
 # 导出所有互助码
 47 5 */2 * * node /scripts/jd_get_share_code.js >> /scripts/logs/jd_get_share_code.log 2>&1
 # 取关京东店铺商品
