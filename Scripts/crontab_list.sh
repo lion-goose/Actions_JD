@@ -33,7 +33,6 @@
 #京喜财富岛
 5 */1 * * * node /scripts/jd_cfd.js >> /scripts/logs/jd_cfd.log 2>&1
 35 */3 * * * node /scripts/gua_wealth_island.js >> /scripts/logs/gua_wealth_island.log 2>&1
-46 6-23/1 * * * ps -ef | grep "jd_cfd_loop" | grep -v "grep" | awk '{print "kill "$1}'
 47 6-23/1 * * * node /scripts/jd_cfd_loop.js >> /scripts/logs/jd_cfd_loop.log 2>&1
 #京喜财富岛提现
 # 0,1 0 * * * node /scripts/jd_jxcfdtx.js >> /scripts/logs/jd_jxcfdtx.log 2>&1
