@@ -27,7 +27,8 @@
 12 0,8,16,22 * * * node /scripts/jd_jxnc.js >> /scripts/logs/jd_jxnc.log 2>&1
 #京喜财富岛
 5 */1 * * * node /scripts/jd_cfd.js >> /scripts/logs/jd_cfd.log 2>&1
-35 */3 * * * node /scripts/gua_wealth_island.js >> /scripts/logs/gua_wealth_island.log 2>&1
+35 */3 * * * node /scripts/gua_wealth_islandsmiek2221.js >> /scripts/logs/gua_wealth_islandsmiek2221.log 2>&1
+21 9 * * * node /scripts/gua_MMdousmiek2221.js >> /scripts/logs/gua_MMdousmiek2221.log 2>&1
 47 6-23/1 * * * node /scripts/jd_cfd_loop.js >> /scripts/logs/jd_cfd_loop.log 2>&1
 # 微信小程序京东赚赚
 1 0,12 * * * node /scripts/jd_jdzz.js >> /scripts/logs/jd_jdzz.log 2>&1
