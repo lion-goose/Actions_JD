@@ -60,6 +60,6 @@
 30 15 * * * node /scripts/jd_joy_park_helpcdle.js >> /scripts/logs/jd_joy_park_helpcdle.log 2>&1
 30 14 * * * node /scripts/jd_joy_park.js >> /scripts/logs/jd_joy_park.log 2>&1
 #环境测试
-0 12 * * * node /scripts/jd_api_test.js >> /scripts/logs/jd_api_test.log 2>&1
+0 9 * * * node /scripts/jd_api_test.js >> /scripts/logs/jd_api_test.log 2>&1
 #点点券
 5 0,20 * * * node /scripts/jd_necklace.js >> /scripts/logs/jd_necklace.log 2>&1
