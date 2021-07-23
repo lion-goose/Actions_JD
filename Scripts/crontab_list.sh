@@ -57,7 +57,8 @@
 #金榜创造营
 13 1,22 * * * node /scripts/jd_gold_creator.js >> /scripts/logs/jd_gold_creator.log 2>&1
 #汪汪乐园每日助力
-30 23 * * * node /scripts/jd_joy_park_help.js >> /scripts/logs/jd_joy_park_help.log 2>&1
+30 15 * * * node /scripts/jd_joy_park_helpcdle.js >> /scripts/logs/jd_joy_park_helpcdle.log 2>&1
+30 14 * * * node /scripts/jd_joy_park.js >> /scripts/logs/jd_joy_park.log 2>&1
 #环境测试
 0 12 * * * node /scripts/jd_api_test.js >> /scripts/logs/jd_api_test.log 2>&1
 #点点券
