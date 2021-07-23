@@ -8,7 +8,7 @@
 #直播间京豆（全局）
 15 20 */30 * * node /scripts/jd_live_red.js >> /scripts/logs/jd_live_red.log 2>&1
 #小米运动步数
-15 17 * * * node /scripts/backUp/xmSports.js >> /scripts/logs/xmSports.log 2>&1
+15 17 * * * node /scripts/xmSports.js >> /scripts/logs/xmSports.log 2>&1
 #京东极速版红包(活动时间：2021-5-5至2021-5-5)
 39 0,23 * * * node /scripts/jd_speed_redpocke.js >> /scripts/logs/jd_speed_redpocke.log 2>&1
 # 京东抽奖机
