@@ -59,4 +59,4 @@
 #环境测试
 0 9 * * * node /scripts/jd_api_test.js >> /scripts/logs/jd_api_test.log 2>&1
 #点点券
-5 0,20 * * * node /scripts/jd_necklacesmiek2221.js >> /scripts/logs/jd_necklacesmiek2221.log 2>&1
+5 0,20 * * * node /scripts/jd_necklace_new.js >> /scripts/logs/jd_necklace_new.log 2>&1
