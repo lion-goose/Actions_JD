@@ -42,7 +42,7 @@
 # 导出所有互助码
 47 5 */2 * * node /scripts/jd_get_share_code.js >> /scripts/logs/jd_get_share_code.log 2>&1
 # 取关京东店铺商品
-48 8,11,14,17,21 * * * node /scripts/jd_unsubscribe.js >> /scripts/logs/jd_unsubscribe.log 2>&1
+48 */3 * * * node /scripts/jd_unsubscribe.js >> /scripts/logs/jd_unsubscribe.log 2>&1
 #京东宠汪汪
 15 0-23/5 * * * node /scripts/jd_joy.js >> /scripts/logs/jd_joy.log 2>&1
 #宠汪汪偷好友积分与狗粮
