@@ -7,8 +7,6 @@
 
 #直播间京豆（全局）
 15 20 */30 * * node /scripts/jd_live_red.js >> /scripts/logs/jd_live_red.log 2>&1
-#小米运动步数
-15 17 * * * node /scripts/xmSports.js >> /scripts/logs/xmSports.log 2>&1
 #签到领现金兑换
 0 0 * * 0,1 node /scripts/jd_cash_exchange.js >> /scripts/logs/jd_cash_exchange.log 2>&1
 #京东极速版红包(活动时间：2021-5-5至2021-5-5)
