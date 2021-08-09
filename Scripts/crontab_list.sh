@@ -50,6 +50,7 @@
 #预存validate
 58 7,15,23 * * * sleep 7s; node /scripts/jd_validate_Worker.js >> /scripts/logs/jd_validate_Worker.log 2>&1
 #宠汪汪兑换京豆
+57 7,15,23 * * * node /scripts/jd_task_validateairacg.js >> /scripts/logs/jd_task_validateairacg.log 2>&1
 59 7,15,23 * * * sleep 57s; node /scripts/jd_joy_reward.js >> /scripts/logs/jd_joy_reward.log 2>&1
 0 0,8,16 * * * node /scripts/jd_joy_reward.js >> /scripts/logs/jd_joy_reward.log 2>&1
 #金榜创造营
