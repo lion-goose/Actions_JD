@@ -27,6 +27,8 @@
 12 0,8,16,22 * * * node /scripts/jd_jxnc.js >> /scripts/logs/jd_jxnc.log 2>&1
 #京喜财富岛
 5 */3 * * * node /scripts/jd_cfd.js >> /scripts/logs/jd_cfd.log 2>&1
+#京喜财富岛提现
+59 11,23 * * * sleep 57s; node /scripts/jd_cfd_withdraw.js >> /scripts/logs/jd_cfd_withdraw.log 2>&1
 # 微信小程序京东赚赚
 1 0,12 * * * node /scripts/jd_jdzz.js >> /scripts/logs/jd_jdzz.log 2>&1
 # 十元街
