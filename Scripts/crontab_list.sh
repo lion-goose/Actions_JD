@@ -62,3 +62,5 @@
 0 9 * * * node /scripts/jd_api_test.js >> /scripts/logs/jd_api_test.log 2>&1
 #点点券
 5 0,20 * * * node /scripts/jd_necklace_new.js >> /scripts/logs/jd_necklace_new.log 2>&1
+#城城分现金
+0 0-23/4,22 * 10 * node /scripts/jd_city.js >> /scripts/logs/jd_city.log 2>&1
