@@ -23,8 +23,6 @@
 15 5 * * * node /scripts/jd_small_home.js >> /scripts/logs/jd_small_home.log 2>&1
 # 东东超市
 22 */6 * * * node /scripts/jd_superMarket.js >> /scripts/logs/jd_superMarket.log 2>&1
-# 京喜农场
-12 0,8,16,22 * * * node /scripts/jd_jxnc.js >> /scripts/logs/jd_jxnc.log 2>&1
 #京喜财富岛
 5 */3 * * * node /scripts/jd_cfd.js >> /scripts/logs/jd_cfd.log 2>&1
 # 微信小程序京东赚赚
