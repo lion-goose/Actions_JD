@@ -4,7 +4,8 @@
 30 * * * * sh +x /scripts/docker/auto_help.sh collect >> /scripts/logs/auto_help_collect.log 2>&1
 
 
-
+#城城领现金 [gua_city.js]
+0 22,0-23/5 9-21 1 * node /scripts/gua_city.js >> /scripts/logs/gua_city.log 2>&1
 #直播间京豆（全局）
 15 20 */30 * * node /scripts/jd_live_red.js >> /scripts/logs/jd_live_red.log 2>&1
 #京东极速版红包(活动时间：2021-5-5至2021-5-5)
